@@ -1,0 +1,14 @@
+2023-03-10T11:18:44+00:00 CRITICAL Uncaught Error: Call to undefined function et_core_intentionally_unescaped() in /home/vipestaging/mink-ivanjica.vipestaging.com/wp-content/themes/astra/functions.php:223
+Stack trace:
+#0 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-includes/class-wp-hook.php(308): ds_custom_wc_empty_cart_text('')
+#1 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-content/plugins/shopengine/core/page-templates/screens/content-cart.php(25): do_action('woocommerce_car...')
+#4 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-content/plugins/shopengine/core/page-templates/hooks/base.php(181): include_once('/home/vipestagi...')
+#5 [internal function]: ShopEngine\Core\Page_Templates\Hooks\Base->ShopEngine\Core\Page_Templates\Hooks\{closure}()
+#6 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-co in /home/vipestaging/mink-ivanjica.vipestaging.com/wp-content/themes/astra/functions.php on line 223
+
+2023-03-10T23:27:36+00:00 CRITICAL Cannot redeclare woocommerce_button_proceed_to_checkout() (previously declared in /home/vipestaging/mink-ivanjica.vipestaging.com/wp-content/plugins/woocommerce/includes/wc-template-functions.php:2211) in /home/vipestaging/mink-ivanjica.vipestaging.com/wp-content/themes/astra/functions.php on line 207
+
+2023-03-10T23:28:37+00:00 CRITICAL Cannot redeclare woocommerce_button_proceed_to_checkout() (previously declared in /home/vipestaging/mink-ivanjica.vipestaging.com/wp-content/plugins/woocommerce/includes/wc-template-functions.php:2211) in /home/vipestaging/mink-ivanjica.vipestaging.com/wp-content/themes/astra/functions.php on line 207
+

@@ -1,0 +1,30 @@
+2023-03-09T09:46:31+00:00 CRITICAL Uncaught Error: Call to undefined function et_core_intentionally_unescaped() in /home/vipestaging/mink-ivanjica.vipestaging.com/wp-content/themes/astra/functions.php:223
+Stack trace:
+#0 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-includes/class-wp-hook.php(308): ds_custom_wc_empty_cart_text('')
+#1 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-content/plugins/shopengine/core/page-templates/screens/content-cart.php(25): do_action('woocommerce_car...')
+#4 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-content/plugins/shopengine/core/page-templates/hooks/base.php(181): include_once('/home/vipestagi...')
+#5 [internal function]: ShopEngine\Core\Page_Templates\Hooks\Base->ShopEngine\Core\Page_Templates\Hooks\{closure}()
+#6 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-co in /home/vipestaging/mink-ivanjica.vipestaging.com/wp-content/themes/astra/functions.php on line 223
+
+2023-03-09T09:46:32+00:00 CRITICAL Uncaught Error: Call to undefined function et_core_intentionally_unescaped() in /home/vipestaging/mink-ivanjica.vipestaging.com/wp-content/themes/astra/functions.php:223
+Stack trace:
+#0 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-includes/class-wp-hook.php(308): ds_custom_wc_empty_cart_text('')
+#1 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-content/plugins/shopengine/core/page-templates/screens/content-cart.php(25): do_action('woocommerce_car...')
+#4 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-content/plugins/shopengine/core/page-templates/hooks/base.php(181): include_once('/home/vipestagi...')
+#5 [internal function]: ShopEngine\Core\Page_Templates\Hooks\Base->ShopEngine\Core\Page_Templates\Hooks\{closure}()
+#6 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-co in /home/vipestaging/mink-ivanjica.vipestaging.com/wp-content/themes/astra/functions.php on line 223
+
+2023-03-09T09:46:42+00:00 CRITICAL Uncaught Error: Call to undefined function et_core_intentionally_unescaped() in /home/vipestaging/mink-ivanjica.vipestaging.com/wp-content/themes/astra/functions.php:223
+Stack trace:
+#0 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-includes/class-wp-hook.php(308): ds_custom_wc_empty_cart_text('')
+#1 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-content/plugins/shopengine/core/page-templates/screens/content-cart.php(25): do_action('woocommerce_car...')
+#4 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-content/plugins/shopengine/core/page-templates/hooks/base.php(181): include_once('/home/vipestagi...')
+#5 [internal function]: ShopEngine\Core\Page_Templates\Hooks\Base->ShopEngine\Core\Page_Templates\Hooks\{closure}()
+#6 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-co in /home/vipestaging/mink-ivanjica.vipestaging.com/wp-content/themes/astra/functions.php on line 223
+

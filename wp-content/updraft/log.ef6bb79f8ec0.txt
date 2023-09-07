@@ -1,0 +1,61 @@
+0000.000 (0) Opened log file at time: Sat, 28 Jan 2023 21:24:40 +0000 on https://mink-ivanjica.epizy.com
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.24 WP: 6.1.1 PHP: 7.4.8 (apache2handler, Linux freeweb21.byetcluster.com 2.6.32-896.16.1.lve1.4.54.el6.x86_64 #1 SMP Wed May 2 07:43:19 EDT 2018 x86_64) MySQL: 10.3.27-MariaDB (max packet size=3145728) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 60 memory_limit: 128M (used: 80.1M | 61M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: Unknown
+0000.006 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.008 (0) Semaphore (fd, wp6c_options) being initialised
+0000.010 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.012 (0) Set semaphore last lock (fd) time to 2023-01-28 21:24:40
+0000.013 (0) Semaphore lock (fd) complete
+0000.016 (0) Backup run: resumption=0, nonce=ef6bb79f8ec0, file_nonce=ef6bb79f8ec0 begun at=1674941080 (0s ago), job type=backup
+0000.017 (0) Scheduling a resumption (1) after 300 seconds (1674941380) in case this run gets aborted
+0000.031 (0) Checking if we have a zip executable available
+0000.032 (0) Creation of backups of directories: beginning
+0000.036 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0018.678 (0) Total entities for the zip file: 2073 directories, 8521 files (0 skipped as non-modified), 121.8 MB
+0018.687 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0020.837 (0) Zip: backup_2023-01-28-2124_Mink_Ivanjica_ef6bb79f8ec0-plugins.zip.tmp: 100 files added (on-disk size: 404.6 KB)
+0020.888 (0) Zip: backup_2023-01-28-2124_Mink_Ivanjica_ef6bb79f8ec0-plugins.zip.tmp: 200 files added (on-disk size: 404.6 KB)
+0020.894 (0) Zip: backup_2023-01-28-2124_Mink_Ivanjica_ef6bb79f8ec0-plugins.zip.tmp: 300 files added (on-disk size: 404.6 KB)
+0020.899 (0) Zip: backup_2023-01-28-2124_Mink_Ivanjica_ef6bb79f8ec0-plugins.zip.tmp: 400 files added (on-disk size: 404.6 KB)
+0020.904 (0) Zip: backup_2023-01-28-2124_Mink_Ivanjica_ef6bb79f8ec0-plugins.zip.tmp: 500 files added (on-disk size: 404.6 KB)
+0020.909 (0) Zip: backup_2023-01-28-2124_Mink_Ivanjica_ef6bb79f8ec0-plugins.zip.tmp: 600 files added (on-disk size: 404.6 KB)
+0020.914 (0) Zip: backup_2023-01-28-2124_Mink_Ivanjica_ef6bb79f8ec0-plugins.zip.tmp: 700 files added (on-disk size: 404.6 KB)
+0020.918 (0) Zip: backup_2023-01-28-2124_Mink_Ivanjica_ef6bb79f8ec0-plugins.zip.tmp: 800 files added (on-disk size: 404.6 KB)
+0020.935 (0) Zip: backup_2023-01-28-2124_Mink_Ivanjica_ef6bb79f8ec0-plugins.zip.tmp: 900 files added (on-disk size: 404.6 KB)
+0020.938 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (26.2 MB, 8521 files batched, 962 (963) added so far); re-opening (prior size: 404.6 KB)
+0304.168 (1) Opened log file at time: Sat, 28 Jan 2023 21:29:44 +0000 on https://mink-ivanjica.epizy.com
+0304.169 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.24 WP: 6.1.1 PHP: 7.4.8 (apache2handler, Linux freeweb21.byetcluster.com 2.6.32-896.16.1.lve1.4.54.el6.x86_64 #1 SMP Wed May 2 07:43:19 EDT 2018 x86_64) MySQL: 10.3.27-MariaDB (max packet size=3145728) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 60 memory_limit: 128M (used: 70.3M | 21M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG: C ZipArchive::addFile: Y
+0304.170 (1) Free space on disk containing Updraft's temporary directory: Unknown
+0304.171 (1) Requesting backup semaphore lock (ef6bb79f8ec0)
+0304.172 (1) [Debug] Lock option (updraft_lock_ef6bb79f8ec0, wp6c_options) was created in the database
+0304.173 (1) [Info] Lock (updraft_lock_ef6bb79f8ec0, wp6c_options) acquired after initialising the database
+0304.174 (1) Backup run: resumption=1, nonce=ef6bb79f8ec0, file_nonce=ef6bb79f8ec0 begun at=1674941080 (304s ago), job type=backup, previous check-in=20.82s
+0304.175 (1) Scheduling a resumption (2) after 300 seconds (1674941684) in case this run gets aborted
+0304.188 (1) Checking if we have a zip executable available
+0304.189 (1) Creation of backups of directories: had begun; will resume
+0304.191 (1) Beginning creation of dump of plugins (split every: 400 MB)
+0304.192 (1) File exists (/home/vol15_8/epizy.com/epiz_33052745/htdocs/wp-content/updraft/backup_2023-01-28-2124_Mink_Ivanjica_ef6bb79f8ec0-plugins.zip.tmp), but was not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1674941101, time_now=1674941384, diff=283)
+0304.203 (1) backup_2023-01-28-2124_Mink_Ivanjica_ef6bb79f8ec0-plugins.zip.tmp: Zip file already exists, with 1 files
+0304.494 (1) Total entities for the zip file: 2073 directories, 8521 files (0 skipped as non-modified), 121.8 MB
+0304.510 (1) Zip: backup_2023-01-28-2124_Mink_Ivanjica_ef6bb79f8ec0-plugins.zip.tmp: 100 files added (on-disk size: 404.6 KB)
+0304.515 (1) Zip: backup_2023-01-28-2124_Mink_Ivanjica_ef6bb79f8ec0-plugins.zip.tmp: 200 files added (on-disk size: 404.6 KB)
+0304.519 (1) Zip: backup_2023-01-28-2124_Mink_Ivanjica_ef6bb79f8ec0-plugins.zip.tmp: 300 files added (on-disk size: 404.6 KB)
+0304.524 (1) Zip: backup_2023-01-28-2124_Mink_Ivanjica_ef6bb79f8ec0-plugins.zip.tmp: 400 files added (on-disk size: 404.6 KB)
+0304.529 (1) Zip: backup_2023-01-28-2124_Mink_Ivanjica_ef6bb79f8ec0-plugins.zip.tmp: 500 files added (on-disk size: 404.6 KB)
+0304.537 (1) Zip: backup_2023-01-28-2124_Mink_Ivanjica_ef6bb79f8ec0-plugins.zip.tmp: 600 files added (on-disk size: 404.6 KB)
+0304.543 (1) Zip: backup_2023-01-28-2124_Mink_Ivanjica_ef6bb79f8ec0-plugins.zip.tmp: 700 files added (on-disk size: 404.6 KB)
+0304.548 (1) Zip: backup_2023-01-28-2124_Mink_Ivanjica_ef6bb79f8ec0-plugins.zip.tmp: 800 files added (on-disk size: 404.6 KB)
+0304.552 (1) Zip: backup_2023-01-28-2124_Mink_Ivanjica_ef6bb79f8ec0-plugins.zip.tmp: 900 files added (on-disk size: 404.6 KB)
+0304.556 (1) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (26.2 MB, 8521 files batched, 962 (962) added so far); re-opening (prior size: 404.6 KB)
+0316.947 (1) A useful amount of data was added after this amount of zip processing: 13.1 s (normalised: 12.5 s, rate: 2047.6 KB/s)
+0337.484 (1) Zip: backup_2023-01-28-2124_Mink_Ivanjica_ef6bb79f8ec0-plugins.zip.tmp: 1000 files added (on-disk size: 8254.3 KB)
+0337.489 (1) Zip: backup_2023-01-28-2124_Mink_Ivanjica_ef6bb79f8ec0-plugins.zip.tmp: 1100 files added (on-disk size: 8254.3 KB)
+0337.494 (1) Zip: backup_2023-01-28-2124_Mink_Ivanjica_ef6bb79f8ec0-plugins.zip.tmp: 1200 files added (on-disk size: 8254.3 KB)
+0337.499 (1) Zip: backup_2023-01-28-2124_Mink_Ivanjica_ef6bb79f8ec0-plugins.zip.tmp: 1300 files added (on-disk size: 8254.3 KB)
+0337.505 (1) Zip: backup_2023-01-28-2124_Mink_Ivanjica_ef6bb79f8ec0-plugins.zip.tmp: 1400 files added (on-disk size: 8254.3 KB)
+0337.509 (1) Zip: backup_2023-01-28-2124_Mink_Ivanjica_ef6bb79f8ec0-plugins.zip.tmp: 1500 files added (on-disk size: 8254.3 KB)
+0337.514 (1) Zip: backup_2023-01-28-2124_Mink_Ivanjica_ef6bb79f8ec0-plugins.zip.tmp: 1600 files added (on-disk size: 8254.3 KB)
+0337.519 (1) Zip: backup_2023-01-28-2124_Mink_Ivanjica_ef6bb79f8ec0-plugins.zip.tmp: 1700 files added (on-disk size: 8254.3 KB)
+0337.526 (1) Zip: backup_2023-01-28-2124_Mink_Ivanjica_ef6bb79f8ec0-plugins.zip.tmp: 1800 files added (on-disk size: 8254.3 KB)
+0337.531 (1) Zip: backup_2023-01-28-2124_Mink_Ivanjica_ef6bb79f8ec0-plugins.zip.tmp: 1900 files added (on-disk size: 8254.3 KB)
+0337.535 (1) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (15.3 MB, 8521 files batched, 1001 (1963) added so far); re-opening (prior size: 8254.3 KB)

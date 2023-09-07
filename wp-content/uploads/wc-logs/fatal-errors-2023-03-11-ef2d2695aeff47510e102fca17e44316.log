@@ -1,0 +1,32 @@
+2023-03-11T09:00:56+00:00 CRITICAL Cannot redeclare woocommerce_button_proceed_to_checkout() (previously declared in /home/vipestaging/mink-ivanjica.vipestaging.com/wp-content/plugins/woocommerce/includes/wc-template-functions.php:2211) in /home/vipestaging/mink-ivanjica.vipestaging.com/wp-content/themes/astra/functions.php on line 206
+
+2023-03-11T10:14:26+00:00 CRITICAL Uncaught Error: Call to a member function enqueue_styles() on null in /home/vipestaging/mink-ivanjica.vipestaging.com/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php:385
+Stack trace:
+#0 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-includes/class-wp-hook.php(308): Header_Footer_Elementor->enqueue_scripts('')
+#1 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-includes/script-loader.php(2180): do_action('wp_enqueue_scri...')
+#4 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home/vipestaging/mink-ivanjica.vipestaging.com/w in /home/vipestaging/mink-ivanjica.vipestaging.com/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php on line 385
+
+2023-03-11T10:14:37+00:00 CRITICAL Uncaught Error: Call to a member function enqueue_styles() on null in /home/vipestaging/mink-ivanjica.vipestaging.com/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php:385
+Stack trace:
+#0 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-includes/class-wp-hook.php(308): Header_Footer_Elementor->enqueue_scripts('')
+#1 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-includes/script-loader.php(2180): do_action('wp_enqueue_scri...')
+#4 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home/vipestaging/mink-ivanjica.vipestaging.com/w in /home/vipestaging/mink-ivanjica.vipestaging.com/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php on line 385
+
+2023-03-11T10:14:42+00:00 CRITICAL Uncaught Error: Call to a member function enqueue_styles() on null in /home/vipestaging/mink-ivanjica.vipestaging.com/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php:385
+Stack trace:
+#0 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-includes/class-wp-hook.php(308): Header_Footer_Elementor->enqueue_scripts('')
+#1 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-includes/script-loader.php(2180): do_action('wp_enqueue_scri...')
+#4 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home/vipestaging/mink-ivanjica.vipestaging.com/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home/vipestaging/mink-ivanjica.vipestaging.com/w in /home/vipestaging/mink-ivanjica.vipestaging.com/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php on line 385
+

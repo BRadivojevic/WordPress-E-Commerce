@@ -1,0 +1,67 @@
+.jet-woo-carousel {
+	.slick-slider {
+		position:relative;
+		display: block;
+	}
+
+	.slick-list {
+		position: relative;
+		overflow: hidden;
+	}
+
+	.slick-track {
+		display: flex;
+
+		.slick-slide {
+			flex: 0 0 auto;
+		}
+	}
+
+	.jet-arrow {
+		position: absolute;
+		top: 50%;
+		left: 0;
+		width: 50px;
+		height: 50px;
+		line-height: 1;
+		font-size: 30px;
+		color: #fff;
+		background-color: #111;
+		transform: translateY(-50%);
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		transition: all 200ms linear;
+		z-index: 999;
+
+		&.next-arrow {
+			left: auto;
+			right: 0;
+		}
+	}
+
+	.jet-slick-dots {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		margin: 10px 0;
+		padding: 0;
+		li {
+			width: 12px;
+			height: 12px;
+			border-radius: 100%;
+			text-indent: -50px;
+			overflow: hidden;
+			cursor: pointer;
+			background: #eee;
+			margin: 3px;
+
+			&:hover,
+			&.slick-active {
+				background: #111;
+			}
+		}
+	}
+}
